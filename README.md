@@ -5,8 +5,8 @@
 # sudo apt install sudo
 addgroup
 su -
-chmod usergroup -aG wheel user
-visudo et %wheel ALL(ALL:ALL)
+usermod -aG wheel user
+visudo et décommenter %wheel ALL(ALL:ALL) ALL
 exit et reconnect
 
 # Changer ifupdown to networkmanager
