@@ -56,3 +56,20 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo systemctl status docker
 
 sudo systemctl start docker
+
+## arrstack (Prolarr, Radarr, Lidarr, Sonarr, Bazarr, qBittorrent, Jellyfin)
+
+## caddy_filebrowser (Caddy https reverse proxy+server (Tailscale) via FileBrowser)
+
+## homepage
+
+## immich
+
+## uptime-kuma
+
+## Syncthing installé en bare sur la débian
+
+## Penser a 
+### Déclaratif, NixOs pour reproductilibilité
+### Stocker docker-compose.yml des services
+### Stratégie de Backup sur SSD Crucial? 
